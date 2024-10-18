@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurante</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" >
+    <link rel="stylesheet"  href="https://fonts.googleapis.com/icon?family=Material+Icons" >
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="preconnect" href="https://fonts.gastatic.com">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link rel="stylesheet" href="../public/css/styless.css">
+</head>
+<body>
+    <header>
+        <h1>ApaBurguers</h1>
+        <button id="cesta-carrito"><i class="fas fa-shopping-cart"></i><span id="contador-carrito">Carrito</span></button>
+    </header>
+    <main id="producto-contenedor">
+
+    </main>
+    <div class="modal-contenedor">
+        <div class="modal-carrito">
+        <h3>Carrito</h3>
+        <button id="btn-cerrar-carrito"><i class="fas fa-times-circle"></i></button>
+        <div id="carrito-contenedor">
+    
+        </div>
+        <p class="precioProducto">Precio total: $<span id="precioTotal"></span></p>
+        <button id="btn-finalizar-compra" class="btn waves-effect waves-light">Finalizar Compra</button>
+        </div>
+    </div>
+    
+
+    <script src="/js/productos.js"></script>
+    <script src="/js/inicio.js"></script>
+    <script src="/js/event.js"></script>
+    <script src="/js/acciones.js"></script>
+    <script src="/js/listen.js"></script>
+</body>
+</html>

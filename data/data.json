@@ -1,0 +1,53 @@
+[
+    {
+        "id": 1,
+        "nombre": "hamburguesa simple",
+        "descripcion": "120g de carne, cheddar, cebolla, ketchup, mostaza",
+        "precio": 200,
+        "imagen": "../public/image/burguer.jpg",
+        "cantidad": 1
+    },
+    {
+        "id": 2,
+        "nombre": "hamburguesa doble",
+        "descripcion": "doble medallon de carne de 120g , cheddar, cebolla, ketchup",
+        "precio": 240,
+        "imagen": "../public/image/burguer2.jpg",
+        "cantidad": 1
+    },
+    {
+        "id": 3,
+        "nombre": "hamburguesa doble bacon",
+        "descripcion": "doble medallon de carne de 120g , cheddar, cebolla, ketchup, bacon",
+        "precio": 260,
+        "imagen": "../public/image/burguer3.jpg",
+        "cantidad": 1
+    },
+
+    {
+        "id": 4,
+        "nombre": "hamburguesa doble bacon premium",
+        "descripcion": "doble medallon de carne de 120g , cheddar, cebolla, ketchup, bacon, cebolla caramelizada",
+        "precio": 280,
+        "imagen": "../public/image/burguer4.jpg",
+        "cantidad": 1
+    },
+
+    {
+        "id": 5,
+        "nombre": "hamburguesa triple comun ",
+        "descripcion": "Triple medallon de carne de 120g , cheddar, cebolla, ketchup, mostaza",
+        "precio": 320,
+        "imagen": "../public/image/burguer5.jpg",
+        "cantidad": 1
+    },
+
+    {
+        "id": 6,
+        "nombre": "hamburuguesa triple premium ",
+        "descripcion": "Triple medallon de carne de 120g , cheddar, cebolla, ketchup, mostaza, bacon, cebolla caramelizada",
+        "imagen": "../public/image/burguer6.jpeg",
+        "precio": 360,
+        "cantidad": 1
+    }
+]
